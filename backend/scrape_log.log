@@ -258,3 +258,454 @@ Stacktrace:
 2025-03-31 19:44:18,921 - INFO - Processed data points after resampling: 40
 2025-03-31 19:44:18,921 - INFO - Sample processed prices: [2142.8571428571427, 1771.4285714285713, 1571.4285714285713, 1600.0, 1500.0]
 2025-03-31 19:44:19,480 - INFO - Fallback to ARIMA due to insufficient data for seasonality
+2025-04-02 22:13:55,776 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-02 22:13:55,777 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 22:13:55,798 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 22:13:57,375 - WARNING -  * Debugger is active!
+2025-04-02 22:13:57,376 - INFO -  * Debugger PIN: 129-038-908
+2025-04-02 22:14:21,855 - INFO - 127.0.0.1 - - [02/Apr/2025 22:14:21] "OPTIONS /login HTTP/1.1" 200 -
+2025-04-02 22:14:22,708 - INFO - 127.0.0.1 - - [02/Apr/2025 22:14:22] "POST /login HTTP/1.1" 200 -
+2025-04-02 22:15:52,364 - INFO - 127.0.0.1 - - [02/Apr/2025 22:15:52] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-02 22:15:52,474 - INFO - 127.0.0.1 - - [02/Apr/2025 22:15:52] "POST /predict HTTP/1.1" 200 -
+2025-04-02 22:16:36,677 - INFO - 127.0.0.1 - - [02/Apr/2025 22:16:36] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:16:41,873 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:16:48,834 - INFO - Popup closed
+2025-04-02 22:16:48,834 - INFO - Fetching data for Orange in Tamil Nadu, Madhuranthagam(Uzhavar Sandhai )
+2025-04-02 22:17:31,441 - INFO - 127.0.0.1 - - [02/Apr/2025 22:17:31] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 22:19:36,799 - INFO - 127.0.0.1 - - [02/Apr/2025 22:19:36] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:19:38,569 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:19:49,882 - INFO - Popup closed
+2025-04-02 22:19:49,882 - INFO - Fetching data for Orange in Tamil Nadu, Usilampatti(Uzhavar Sandhai )
+2025-04-02 22:20:16,186 - INFO - 127.0.0.1 - - [02/Apr/2025 22:20:16] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 22:23:04,477 - INFO - 127.0.0.1 - - [02/Apr/2025 22:23:04] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-02 22:23:04,527 - INFO - 127.0.0.1 - - [02/Apr/2025 22:23:04] "POST /predict HTTP/1.1" 200 -
+2025-04-02 22:23:23,212 - INFO - 127.0.0.1 - - [02/Apr/2025 22:23:23] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:23:24,904 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:23:34,197 - INFO - Popup closed
+2025-04-02 22:23:34,197 - INFO - Fetching data for Tomato in Tamil Nadu, Usilampatti(Uzhavar Sandhai )
+2025-04-02 22:23:53,978 - INFO - 127.0.0.1 - - [02/Apr/2025 22:23:53] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 22:24:52,610 - INFO - 127.0.0.1 - - [02/Apr/2025 22:24:52] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:24:54,341 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:25:08,789 - INFO - Popup closed
+2025-04-02 22:25:08,789 - INFO - Fetching data for Tomato in Tamil Nadu, Usilampatty
+2025-04-02 22:25:36,943 - INFO - 127.0.0.1 - - [02/Apr/2025 22:25:36] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:26:28,033 - INFO - 127.0.0.1 - - [02/Apr/2025 22:26:28] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:26:29,730 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:27:06,637 - INFO - Popup closed
+2025-04-02 22:27:06,637 - INFO - Fetching data for Tomato in Tamil Nadu, Tiruchengode
+2025-04-02 22:28:08,199 - INFO - 127.0.0.1 - - [02/Apr/2025 22:28:08] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:29:43,956 - INFO - 127.0.0.1 - - [02/Apr/2025 22:29:43] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:29:45,685 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:29:54,617 - INFO - Popup closed
+2025-04-02 22:29:54,617 - INFO - Fetching data for Tomato in Tamil Nadu, Tiruchengode
+2025-04-02 22:30:22,258 - INFO - 127.0.0.1 - - [02/Apr/2025 22:30:22] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:30:22,571 - INFO - 127.0.0.1 - - [02/Apr/2025 22:30:22] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:30:24,189 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:30:44,011 - INFO - Popup closed
+2025-04-02 22:30:44,011 - INFO - Fetching data for Maize in Tamil Nadu, Tiruchengode
+2025-04-02 22:31:15,553 - INFO - 127.0.0.1 - - [02/Apr/2025 22:31:15] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:34:25,337 - INFO - 127.0.0.1 - - [02/Apr/2025 22:34:25] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:34:27,053 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:34:33,815 - INFO - Popup closed
+2025-04-02 22:34:33,815 - INFO - Fetching data for Apple in Rajasthan, 27-A
+2025-04-02 22:34:55,535 - INFO - 127.0.0.1 - - [02/Apr/2025 22:34:55] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 22:43:32,205 - INFO - 127.0.0.1 - - [02/Apr/2025 22:43:32] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-02 22:43:32,233 - INFO - 127.0.0.1 - - [02/Apr/2025 22:43:32] "POST /predict HTTP/1.1" 200 -
+2025-04-02 22:43:45,904 - INFO - 127.0.0.1 - - [02/Apr/2025 22:43:45] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:43:47,693 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:43:55,321 - INFO - Popup closed
+2025-04-02 22:43:55,321 - INFO - Fetching data for Apple in Rajasthan, 27-A
+2025-04-02 22:44:15,169 - INFO - 127.0.0.1 - - [02/Apr/2025 22:44:15] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 22:44:15,486 - INFO - 127.0.0.1 - - [02/Apr/2025 22:44:15] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:44:17,110 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:44:29,271 - INFO - Popup closed
+2025-04-02 22:44:29,271 - INFO - Fetching data for Plum in Rajasthan, 27-A
+2025-04-02 22:44:54,580 - INFO - 127.0.0.1 - - [02/Apr/2025 22:44:54] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 22:44:54,590 - INFO - 127.0.0.1 - - [02/Apr/2025 22:44:54] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:44:56,301 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:45:05,613 - INFO - Popup closed
+2025-04-02 22:45:05,613 - INFO - Fetching data for Pear(Marasebu) in Rajasthan, 27-A
+2025-04-02 22:45:27,788 - INFO - 127.0.0.1 - - [02/Apr/2025 22:45:27] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 22:45:27,799 - INFO - 127.0.0.1 - - [02/Apr/2025 22:45:27] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:45:29,511 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:45:34,680 - INFO - Popup closed
+2025-04-02 22:45:34,680 - INFO - Fetching data for Cherry in Rajasthan, 27-A
+2025-04-02 22:45:52,968 - INFO - 127.0.0.1 - - [02/Apr/2025 22:45:52] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 22:49:02,636 - INFO - 127.0.0.1 - - [02/Apr/2025 22:49:02] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:49:04,374 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:49:09,642 - INFO - Popup closed
+2025-04-02 22:49:09,642 - INFO - Fetching data for Apple in Rajasthan, Ajmer(F&V)
+2025-04-02 22:49:45,796 - INFO - 127.0.0.1 - - [02/Apr/2025 22:49:45] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:49:45,801 - INFO - 127.0.0.1 - - [02/Apr/2025 22:49:45] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:49:47,533 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:49:52,363 - INFO - Popup closed
+2025-04-02 22:49:52,363 - INFO - Fetching data for Plum in Rajasthan, Ajmer(F&V)
+2025-04-02 22:50:23,600 - INFO - 127.0.0.1 - - [02/Apr/2025 22:50:23] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:50:23,924 - INFO - 127.0.0.1 - - [02/Apr/2025 22:50:23] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:50:25,657 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:50:29,026 - INFO - Popup closed
+2025-04-02 22:50:29,026 - INFO - Fetching data for Pear(Marasebu) in Rajasthan, Ajmer(F&V)
+2025-04-02 22:50:38,593 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\train.py', reloading
+2025-04-02 22:50:38,600 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\database\\db_connection.py', reloading
+2025-04-02 22:50:39,697 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 22:50:43,783 - WARNING -  * Debugger is active!
+2025-04-02 22:50:43,786 - INFO -  * Debugger PIN: 129-038-908
+2025-04-02 22:50:43,817 - INFO - 127.0.0.1 - - [02/Apr/2025 22:50:43] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 22:50:45,564 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 22:50:55,948 - INFO - Popup closed
+2025-04-02 22:50:55,949 - INFO - Fetching data for Cherry in Rajasthan, Ajmer(F&V)
+2025-04-02 22:51:17,342 - INFO - 127.0.0.1 - - [02/Apr/2025 22:51:17] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 23:09:08,227 - INFO - 127.0.0.1 - - [02/Apr/2025 23:09:08] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:09:10,143 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:09:14,268 - INFO - Popup closed
+2025-04-02 23:09:14,268 - INFO - Fetching data for Apple in Rajasthan, Ajmer(F&V)
+2025-04-02 23:10:08,594 - INFO - 127.0.0.1 - - [02/Apr/2025 23:10:08] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:10:08,919 - INFO - 127.0.0.1 - - [02/Apr/2025 23:10:08] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:10:10,785 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:10:20,796 - INFO - Popup closed
+2025-04-02 23:10:20,797 - INFO - Fetching data for Plum in Rajasthan, Ajmer(F&V)
+2025-04-02 23:10:41,413 - INFO - 127.0.0.1 - - [02/Apr/2025 23:10:41] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 23:10:41,420 - INFO - 127.0.0.1 - - [02/Apr/2025 23:10:41] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:10:43,251 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:10:47,443 - INFO - Popup closed
+2025-04-02 23:10:47,443 - INFO - Fetching data for Pear(Marasebu) in Rajasthan, Ajmer(F&V)
+2025-04-02 23:11:06,073 - INFO - 127.0.0.1 - - [02/Apr/2025 23:11:06] "[31m[1mPOST /predict_prices HTTP/1.1[0m" 400 -
+2025-04-02 23:11:06,080 - INFO - 127.0.0.1 - - [02/Apr/2025 23:11:06] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:11:07,902 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:11:12,260 - INFO - Popup closed
+2025-04-02 23:11:12,261 - INFO - Fetching data for Cherry in Rajasthan, Ajmer(F&V)
+2025-04-02 23:11:32,422 - INFO - 127.0.0.1 - - [02/Apr/2025 23:11:32] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 23:14:41,610 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-04-02 23:14:41,613 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask_bcrypt.py', reloading
+2025-04-02 23:14:41,627 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2025-04-02 23:14:41,628 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+2025-04-02 23:14:41,629 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\blueprints.py', reloading
+2025-04-02 23:14:41,630 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-04-02 23:14:41,631 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-04-02 23:14:41,631 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-04-02 23:14:41,632 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-04-02 23:14:41,632 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\typing.py', reloading
+2025-04-02 23:14:41,633 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-04-02 23:14:41,634 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-04-02 23:14:41,634 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-04-02 23:14:41,635 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\sansio\\blueprints.py', reloading
+2025-04-02 23:14:41,635 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+2025-04-02 23:14:41,636 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\common\\exceptions.py', reloading
+2025-04-02 23:14:41,657 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\typing\\__init__.py', reloading
+2025-04-02 23:14:41,658 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\__init__.py', reloading
+2025-04-02 23:14:41,663 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mysql\\connector\\__init__.py', reloading
+2025-04-02 23:14:41,664 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-04-02 23:14:41,665 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-04-02 23:14:41,665 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-04-02 23:14:41,666 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\__init__.py', reloading
+2025-04-02 23:14:41,667 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\__init__.py', reloading
+2025-04-02 23:14:41,667 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_utils\\__init__.py', reloading
+2025-04-02 23:14:41,668 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\support\\ui.py', reloading
+2025-04-02 23:14:41,668 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\common\\by.py', reloading
+2025-04-02 23:14:41,668 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_nbit.py', reloading
+2025-04-02 23:14:41,669 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_array_like.py', reloading
+2025-04-02 23:14:41,669 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\support\\__init__.py', reloading
+2025-04-02 23:14:41,670 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py', reloading
+2025-04-02 23:14:41,683 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mysql\\connector\\errors.py', reloading
+2025-04-02 23:14:41,684 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mysql\\connector\\pooling.py', reloading
+2025-04-02 23:14:41,684 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mysql\\connector\\abstracts.py', reloading
+2025-04-02 23:14:41,687 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\mysql\\connector\\types.py', reloading
+2025-04-02 23:14:41,687 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pickle.py', reloading
+2025-04-02 23:14:41,693 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\support\\select.py', reloading
+2025-04-02 23:14:41,693 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\support\\wait.py', reloading
+2025-04-02 23:14:41,694 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py', reloading
+2025-04-02 23:14:41,694 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\types.py', reloading
+2025-04-02 23:14:41,694 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py', reloading
+2025-04-02 23:14:41,695 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\datetime.py', reloading
+2025-04-02 23:14:41,695 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_pydatetime.py', reloading
+2025-04-02 23:14:41,696 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\chrome\\options.py', reloading
+2025-04-02 23:14:41,696 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\chrome\\service.py', reloading
+2025-04-02 23:14:41,697 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py', reloading
+2025-04-02 23:14:41,697 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\common\\options.py', reloading
+2025-04-02 23:14:41,697 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\common\\timeouts.py', reloading
+2025-04-02 23:14:41,698 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\common\\virtual_authenticator.py', reloading
+2025-04-02 23:14:41,698 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\remote\\file_detector.py', reloading
+2025-04-02 23:14:41,698 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\chromium\\options.py', reloading
+2025-04-02 23:14:41,699 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py', reloading
+2025-04-02 23:14:41,699 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py', reloading
+2025-04-02 23:14:41,699 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\chromium\\__init__.py', reloading
+2025-04-02 23:14:41,699 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\chromium\\service.py', reloading
+2025-04-02 23:14:41,700 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\selenium\\webdriver\\common\\__init__.py', reloading
+2025-04-02 23:14:41,714 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py', reloading
+2025-04-02 23:14:41,715 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_char_codes.py', reloading
+2025-04-02 23:14:41,715 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_scalars.py', reloading
+2025-04-02 23:14:41,715 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_shape.py', reloading
+2025-04-02 23:14:41,716 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py', reloading
+2025-04-02 23:14:41,727 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\sarimax.py', reloading
+2025-04-02 23:14:41,727 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\arima\\model.py', reloading
+2025-04-02 23:14:41,727 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tools\\tools.py', reloading
+2025-04-02 23:14:41,728 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tools\\data.py', reloading
+2025-04-02 23:14:41,728 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\base\\wrapper.py', reloading
+2025-04-02 23:14:41,729 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\initialization.py', reloading
+2025-04-02 23:14:41,729 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\mlemodel.py', reloading
+2025-04-02 23:14:41,729 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\tools.py', reloading
+2025-04-02 23:14:41,729 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tools\\numdiff.py', reloading
+2025-04-02 23:14:41,730 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\base\\data.py', reloading
+2025-04-02 23:14:41,730 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\base\\tsa_model.py', reloading
+2025-04-02 23:14:41,731 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\simulation_smoother.py', reloading
+2025-04-02 23:14:41,731 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\kalman_smoother.py', reloading
+2025-04-02 23:14:41,731 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\kalman_filter.py', reloading
+2025-04-02 23:14:41,732 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\__init__.py', reloading
+2025-04-02 23:14:41,732 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\base\\model.py', reloading
+2025-04-02 23:14:41,732 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\compat\\python.py', reloading
+2025-04-02 23:14:41,733 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\base\\optimizer.py', reloading
+2025-04-02 23:14:41,733 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\representation.py', reloading
+2025-04-02 23:14:41,734 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\linalg\\blas.py', reloading
+2025-04-02 23:14:42,127 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 23:14:45,597 - WARNING -  * Debugger is active!
+2025-04-02 23:14:45,599 - INFO -  * Debugger PIN: 129-038-908
+2025-04-02 23:22:26,759 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:22:26,778 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:22:26,779 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:22:27,231 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 23:22:30,256 - WARNING -  * Debugger is active!
+2025-04-02 23:22:30,259 - INFO -  * Debugger PIN: 129-038-908
+2025-04-02 23:23:08,111 - INFO - 127.0.0.1 - - [02/Apr/2025 23:23:08] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:23:14,665 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:23:27,250 - INFO - 127.0.0.1 - - [02/Apr/2025 23:23:27] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:23:30,110 - INFO - Popup closed
+2025-04-02 23:23:30,110 - INFO - Fetching data for Apple in Rajasthan, 27-A
+2025-04-02 23:23:40,640 - ERROR - Attempt 1 failed: Message: element click intercepted: Element <input type="submit" name="btnGo" value="Go" onclick="return Validate();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnGo&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btnGo" class="btn"> is not clickable at point (1484, 429). Other element would receive the click: <td class="ajax__validatorcallout_error_message_cell">...</td>
+  (Session info: chrome=134.0.6998.178)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A7704C25+3179557]
+	(No symbol) [0x00007FF7A73688A0]
+	(No symbol) [0x00007FF7A71F91CA]
+	(No symbol) [0x00007FF7A7257929]
+	(No symbol) [0x00007FF7A72552E2]
+	(No symbol) [0x00007FF7A7252381]
+	(No symbol) [0x00007FF7A7251281]
+	(No symbol) [0x00007FF7A7242A24]
+	(No symbol) [0x00007FF7A7277C2A]
+	(No symbol) [0x00007FF7A72422D6]
+	(No symbol) [0x00007FF7A7277E40]
+	(No symbol) [0x00007FF7A72A02F3]
+	(No symbol) [0x00007FF7A7277A03]
+	(No symbol) [0x00007FF7A72406D0]
+	(No symbol) [0x00007FF7A7241983]
+	GetHandleVerifier [0x00007FF7A77667CD+3579853]
+	GetHandleVerifier [0x00007FF7A777D1D2+3672530]
+	GetHandleVerifier [0x00007FF7A7772153+3627347]
+	GetHandleVerifier [0x00007FF7A74D092A+868650]
+	(No symbol) [0x00007FF7A7372FFF]
+	(No symbol) [0x00007FF7A736F4A4]
+	(No symbol) [0x00007FF7A736F646]
+	(No symbol) [0x00007FF7A735EAA9]
+	BaseThreadInitThunk [0x00007FF81282E8D7+23]
+	RtlUserThreadStart [0x00007FF8146D14FC+44]
+
+2025-04-02 23:23:49,396 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:23:54,294 - INFO - 127.0.0.1 - - [02/Apr/2025 23:23:54] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:23:56,103 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:24:14,724 - INFO - Popup closed
+2025-04-02 23:24:14,724 - INFO - Fetching data for Apple in Rajasthan, 27-A
+2025-04-02 23:24:29,456 - ERROR - Attempt 2 failed: Message: element click intercepted: Element <input type="submit" name="btnGo" value="Go" onclick="return Validate();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnGo&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btnGo" class="btn"> is not clickable at point (1484, 429). Other element would receive the click: <td class="ajax__validatorcallout_error_message_cell">...</td>
+  (Session info: chrome=134.0.6998.178)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A7704C25+3179557]
+	(No symbol) [0x00007FF7A73688A0]
+	(No symbol) [0x00007FF7A71F91CA]
+	(No symbol) [0x00007FF7A7257929]
+	(No symbol) [0x00007FF7A72552E2]
+	(No symbol) [0x00007FF7A7252381]
+	(No symbol) [0x00007FF7A7251281]
+	(No symbol) [0x00007FF7A7242A24]
+	(No symbol) [0x00007FF7A7277C2A]
+	(No symbol) [0x00007FF7A72422D6]
+	(No symbol) [0x00007FF7A7277E40]
+	(No symbol) [0x00007FF7A72A02F3]
+	(No symbol) [0x00007FF7A7277A03]
+	(No symbol) [0x00007FF7A72406D0]
+	(No symbol) [0x00007FF7A7241983]
+	GetHandleVerifier [0x00007FF7A77667CD+3579853]
+	GetHandleVerifier [0x00007FF7A777D1D2+3672530]
+	GetHandleVerifier [0x00007FF7A7772153+3627347]
+	GetHandleVerifier [0x00007FF7A74D092A+868650]
+	(No symbol) [0x00007FF7A7372FFF]
+	(No symbol) [0x00007FF7A736F4A4]
+	(No symbol) [0x00007FF7A736F646]
+	(No symbol) [0x00007FF7A735EAA9]
+	BaseThreadInitThunk [0x00007FF81282E8D7+23]
+	RtlUserThreadStart [0x00007FF8146D14FC+44]
+
+2025-04-02 23:24:34,862 - INFO - Popup closed
+2025-04-02 23:24:34,862 - INFO - Fetching data for Tomato in Tamil Nadu, Usilampatty
+2025-04-02 23:24:38,395 - INFO - Attempt 3/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:24:45,566 - ERROR - Attempt 1 failed: Message: element click intercepted: Element <input type="submit" name="btnGo" value="Go" onclick="return Validate();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnGo&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btnGo" class="btn"> is not clickable at point (1484, 429). Other element would receive the click: <td class="ajax__validatorcallout_error_message_cell">...</td>
+  (Session info: chrome=134.0.6998.178)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A7704C25+3179557]
+	(No symbol) [0x00007FF7A73688A0]
+	(No symbol) [0x00007FF7A71F91CA]
+	(No symbol) [0x00007FF7A7257929]
+	(No symbol) [0x00007FF7A72552E2]
+	(No symbol) [0x00007FF7A7252381]
+	(No symbol) [0x00007FF7A7251281]
+	(No symbol) [0x00007FF7A7242A24]
+	(No symbol) [0x00007FF7A7277C2A]
+	(No symbol) [0x00007FF7A72422D6]
+	(No symbol) [0x00007FF7A7277E40]
+	(No symbol) [0x00007FF7A72A02F3]
+	(No symbol) [0x00007FF7A7277A03]
+	(No symbol) [0x00007FF7A72406D0]
+	(No symbol) [0x00007FF7A7241983]
+	GetHandleVerifier [0x00007FF7A77667CD+3579853]
+	GetHandleVerifier [0x00007FF7A777D1D2+3672530]
+	GetHandleVerifier [0x00007FF7A7772153+3627347]
+	GetHandleVerifier [0x00007FF7A74D092A+868650]
+	(No symbol) [0x00007FF7A7372FFF]
+	(No symbol) [0x00007FF7A736F4A4]
+	(No symbol) [0x00007FF7A736F646]
+	(No symbol) [0x00007FF7A735EAA9]
+	BaseThreadInitThunk [0x00007FF81282E8D7+23]
+	RtlUserThreadStart [0x00007FF8146D14FC+44]
+
+2025-04-02 23:24:54,529 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:25:05,263 - INFO - Popup closed
+2025-04-02 23:25:05,264 - INFO - Fetching data for Apple in Rajasthan, 27-A
+2025-04-02 23:25:20,064 - ERROR - Attempt 3 failed: Message: element click intercepted: Element <input type="submit" name="btnGo" value="Go" onclick="return Validate();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnGo&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btnGo" class="btn"> is not clickable at point (1484, 429). Other element would receive the click: <td class="ajax__validatorcallout_error_message_cell">...</td>
+  (Session info: chrome=134.0.6998.178)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A7704C25+3179557]
+	(No symbol) [0x00007FF7A73688A0]
+	(No symbol) [0x00007FF7A71F91CA]
+	(No symbol) [0x00007FF7A7257929]
+	(No symbol) [0x00007FF7A72552E2]
+	(No symbol) [0x00007FF7A7252381]
+	(No symbol) [0x00007FF7A7251281]
+	(No symbol) [0x00007FF7A7242A24]
+	(No symbol) [0x00007FF7A7277C2A]
+	(No symbol) [0x00007FF7A72422D6]
+	(No symbol) [0x00007FF7A7277E40]
+	(No symbol) [0x00007FF7A72A02F3]
+	(No symbol) [0x00007FF7A7277A03]
+	(No symbol) [0x00007FF7A72406D0]
+	(No symbol) [0x00007FF7A7241983]
+	GetHandleVerifier [0x00007FF7A77667CD+3579853]
+	GetHandleVerifier [0x00007FF7A777D1D2+3672530]
+	GetHandleVerifier [0x00007FF7A7772153+3627347]
+	GetHandleVerifier [0x00007FF7A74D092A+868650]
+	(No symbol) [0x00007FF7A7372FFF]
+	(No symbol) [0x00007FF7A736F4A4]
+	(No symbol) [0x00007FF7A736F646]
+	(No symbol) [0x00007FF7A735EAA9]
+	BaseThreadInitThunk [0x00007FF81282E8D7+23]
+	RtlUserThreadStart [0x00007FF8146D14FC+44]
+
+2025-04-02 23:25:20,327 - INFO - Popup closed
+2025-04-02 23:25:20,327 - INFO - Fetching data for Tomato in Tamil Nadu, Usilampatty
+2025-04-02 23:25:22,405 - ERROR - All retries failed
+2025-04-02 23:25:26,501 - INFO - 127.0.0.1 - - [02/Apr/2025 23:25:26] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 23:25:34,839 - ERROR - Attempt 2 failed: Message: element click intercepted: Element <input type="submit" name="btnGo" value="Go" onclick="return Validate();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnGo&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btnGo" class="btn"> is not clickable at point (1484, 429). Other element would receive the click: <td class="ajax__validatorcallout_error_message_cell">...</td>
+  (Session info: chrome=134.0.6998.178)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A7704C25+3179557]
+	(No symbol) [0x00007FF7A73688A0]
+	(No symbol) [0x00007FF7A71F91CA]
+	(No symbol) [0x00007FF7A7257929]
+	(No symbol) [0x00007FF7A72552E2]
+	(No symbol) [0x00007FF7A7252381]
+	(No symbol) [0x00007FF7A7251281]
+	(No symbol) [0x00007FF7A7242A24]
+	(No symbol) [0x00007FF7A7277C2A]
+	(No symbol) [0x00007FF7A72422D6]
+	(No symbol) [0x00007FF7A7277E40]
+	(No symbol) [0x00007FF7A72A02F3]
+	(No symbol) [0x00007FF7A7277A03]
+	(No symbol) [0x00007FF7A72406D0]
+	(No symbol) [0x00007FF7A7241983]
+	GetHandleVerifier [0x00007FF7A77667CD+3579853]
+	GetHandleVerifier [0x00007FF7A777D1D2+3672530]
+	GetHandleVerifier [0x00007FF7A7772153+3627347]
+	GetHandleVerifier [0x00007FF7A74D092A+868650]
+	(No symbol) [0x00007FF7A7372FFF]
+	(No symbol) [0x00007FF7A736F4A4]
+	(No symbol) [0x00007FF7A736F646]
+	(No symbol) [0x00007FF7A735EAA9]
+	BaseThreadInitThunk [0x00007FF81282E8D7+23]
+	RtlUserThreadStart [0x00007FF8146D14FC+44]
+
+2025-04-02 23:25:43,503 - INFO - Attempt 3/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:26:02,738 - INFO - Popup closed
+2025-04-02 23:26:02,738 - INFO - Fetching data for Tomato in Tamil Nadu, Usilampatty
+2025-04-02 23:26:05,055 - ERROR - Attempt 3 failed: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=134.0.6998.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A7704C25+3179557]
+	(No symbol) [0x00007FF7A73688A0]
+	(No symbol) [0x00007FF7A71F91CA]
+	(No symbol) [0x00007FF7A7200B98]
+	(No symbol) [0x00007FF7A7203BCC]
+	(No symbol) [0x00007FF7A7203C9F]
+	(No symbol) [0x00007FF7A7249B36]
+	(No symbol) [0x00007FF7A7277C2A]
+	(No symbol) [0x00007FF7A72422D6]
+	(No symbol) [0x00007FF7A7277E40]
+	(No symbol) [0x00007FF7A72A02F3]
+	(No symbol) [0x00007FF7A7277A03]
+	(No symbol) [0x00007FF7A72406D0]
+	(No symbol) [0x00007FF7A7241983]
+	GetHandleVerifier [0x00007FF7A77667CD+3579853]
+	GetHandleVerifier [0x00007FF7A777D1D2+3672530]
+	GetHandleVerifier [0x00007FF7A7772153+3627347]
+	GetHandleVerifier [0x00007FF7A74D092A+868650]
+	(No symbol) [0x00007FF7A7372FFF]
+	(No symbol) [0x00007FF7A736F4A4]
+	(No symbol) [0x00007FF7A736F646]
+	(No symbol) [0x00007FF7A735EAA9]
+	BaseThreadInitThunk [0x00007FF81282E8D7+23]
+	RtlUserThreadStart [0x00007FF8146D14FC+44]
+
+2025-04-02 23:26:07,293 - ERROR - All retries failed
+2025-04-02 23:26:15,435 - INFO - 127.0.0.1 - - [02/Apr/2025 23:26:15] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-02 23:26:39,680 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:26:39,700 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:26:40,355 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 23:26:42,772 - WARNING -  * Debugger is active!
+2025-04-02 23:26:42,773 - INFO -  * Debugger PIN: 129-038-908
+2025-04-02 23:26:47,057 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:26:47,057 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:26:47,076 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:26:47,077 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:26:48,031 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 23:26:50,591 - WARNING -  * Debugger is active!
+2025-04-02 23:26:50,593 - INFO -  * Debugger PIN: 129-038-908
+2025-04-02 23:26:52,078 - INFO - 127.0.0.1 - - [02/Apr/2025 23:26:52] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:26:53,890 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:26:59,608 - INFO - Popup closed
+2025-04-02 23:26:59,608 - INFO - Fetching data for Tomato in Tamil Nadu, Usilampatty
+2025-04-02 23:27:22,583 - INFO - 127.0.0.1 - - [02/Apr/2025 23:27:22] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:28:05,771 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:28:05,788 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:28:05,790 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:28:06,334 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 23:28:09,080 - WARNING -  * Debugger is active!
+2025-04-02 23:28:09,082 - INFO -  * Debugger PIN: 129-038-908
+2025-04-02 23:28:19,298 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:28:19,316 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:28:19,317 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:28:20,372 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 23:28:22,515 - WARNING -  * Debugger is active!
+2025-04-02 23:28:22,517 - INFO -  * Debugger PIN: 129-038-908
+2025-04-02 23:28:37,061 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:28:37,080 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:28:37,082 - INFO -  * Detected change in 'C:\\Projects\\Crop_Combination_Project\\backend\\server.py', reloading
+2025-04-02 23:28:37,761 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-02 23:28:39,879 - WARNING -  * Debugger is active!
+2025-04-02 23:28:39,882 - INFO -  * Debugger PIN: 129-038-908
+2025-04-02 23:28:39,902 - INFO - 127.0.0.1 - - [02/Apr/2025 23:28:39] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:28:41,386 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:28:47,358 - INFO - Popup closed
+2025-04-02 23:28:47,359 - INFO - Fetching data for Tomato in Tamil Nadu, Usilampatty
+2025-04-02 23:29:48,686 - INFO - 127.0.0.1 - - [02/Apr/2025 23:29:48] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:34:54,732 - INFO - 127.0.0.1 - - [02/Apr/2025 23:34:54] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-02 23:34:56,602 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-02 23:35:11,263 - INFO - Popup closed
+2025-04-02 23:35:11,263 - INFO - Fetching data for Tomato in Tamil Nadu, Usilampatty
+2025-04-02 23:36:16,837 - INFO - 127.0.0.1 - - [02/Apr/2025 23:36:16] "POST /predict_prices HTTP/1.1" 200 -

@@ -5,6 +5,7 @@ import SoilDetails from './pages/SoilDetails';
 import Auth from './components/Auth';
 import ResultPage from './pages/ResultPage';
 import HomeDashboard from './pages/HomeDashboard';
+import PricePrediction from './pages/PricePrediction';
 
 const ProtectedRoute = ({ children }) => {
   const isAuthenticated = !!localStorage.getItem('username');
@@ -21,6 +22,7 @@ function App() {
         <Route path="/home" element={<ProtectedRoute><HomeDashboard /></ProtectedRoute>} />
         <Route path="/soil-details" element={<ProtectedRoute><SoilDetails /></ProtectedRoute>} />
         <Route path="/result" element={<ProtectedRoute><ResultPage /></ProtectedRoute>} />
+        <Route path="/price-prediction" element= {<ProtectedRoute><PricePrediction/></ProtectedRoute>}/>
       </Routes>
     </Router>
   );
