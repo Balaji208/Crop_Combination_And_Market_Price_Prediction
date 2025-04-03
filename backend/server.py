@@ -255,7 +255,7 @@ def predict_prices():
                 return jsonify({"error": f"Missing required field: {field}"}), 400
 
         # Define date range (e.g., past 3 years to March 29, 2025)
-        to_date = datetime(2025, 3, 29)  # Hardcoded as per your context
+        to_date = datetime(2025, 4, 3)  # Hardcoded as per your context
         from_date = to_date - timedelta(days=3 * 365)  # 3 years back
 
         # Fetch market prices

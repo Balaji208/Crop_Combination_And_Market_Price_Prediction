@@ -119,11 +119,7 @@ function Home() {
               AgriPredict is a web application designed to address the
               sustainability crisis in agriculture by assisting farmers in making
               informed decisions. Built by a team from{" "}
-              <span className="font-semibold text-green-700">PES University</span> and presented at the{" "}
-              <span className="font-semibold text-green-700">
-                2024 IEEE 9th International Conference for Convergence in
-                Technology (I2CT)
-              </span>
+              <span className="font-semibold text-green-700">College of Engineering ,Guindy (Anna University)</span> 
               , our platform leverages machine learning to provide:
             </p>
             
@@ -159,8 +155,8 @@ function Home() {
             
             <div className="mt-8 p-4 bg-green-100 rounded-lg border border-green-200">
               <p className="text-gray-700 text-lg leading-relaxed">
-                With a main crop prediction accuracy of <span className="font-bold text-green-700">99.5%</span> and
-                market price prediction accuracy of <span className="font-bold text-green-700">94%</span>,
+                With a main crop recommendation accuracy of <span className="font-bold text-green-700">99.5%</span> and
+                subcrop recommendation accuracy of <span className="font-bold text-green-700">97%</span>,
                 AgriPredict combines traditional agricultural wisdom with modern
                 technology to empower farmers towards a sustainable and profitable
                 future.
