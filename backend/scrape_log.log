@@ -1054,3 +1054,266 @@ Stacktrace:
 2025-04-03 11:46:49,300 - INFO -  * Restarting with watchdog (windowsapi)
 2025-04-03 11:46:50,960 - WARNING -  * Debugger is active!
 2025-04-03 11:46:50,962 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 11:53:35,413 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 11:53:35,413 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 11:53:35,433 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 11:53:37,968 - WARNING -  * Debugger is active!
+2025-04-03 11:53:37,970 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 11:55:57,792 - INFO - 127.0.0.1 - - [03/Apr/2025 11:55:57] "OPTIONS /login HTTP/1.1" 200 -
+2025-04-03 11:55:58,848 - INFO - 127.0.0.1 - - [03/Apr/2025 11:55:58] "POST /login HTTP/1.1" 200 -
+2025-04-03 11:56:50,531 - INFO - 127.0.0.1 - - [03/Apr/2025 11:56:50] "[33mGET /main.d78e5e7bfa9b5a2a022f.hot-update.json HTTP/1.1[0m" 404 -
+2025-04-03 11:57:49,778 - INFO - 127.0.0.1 - - [03/Apr/2025 11:57:49] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-03 11:57:49,845 - INFO - 127.0.0.1 - - [03/Apr/2025 11:57:49] "POST /predict HTTP/1.1" 200 -
+2025-04-03 11:58:25,328 - INFO - 127.0.0.1 - - [03/Apr/2025 11:58:25] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:58:28,077 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:58:34,252 - INFO - Popup closed
+2025-04-03 11:58:34,252 - INFO - Fetching data for Pomegranate in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 11:58:56,894 - INFO - 127.0.0.1 - - [03/Apr/2025 11:58:56] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:58:56,901 - INFO - 127.0.0.1 - - [03/Apr/2025 11:58:56] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:58:58,783 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 11:59:32,125 - INFO - Popup closed
+2025-04-03 11:59:32,126 - INFO - Fetching data for Guava in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 11:59:56,335 - INFO - 127.0.0.1 - - [03/Apr/2025 11:59:56] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:59:56,648 - INFO - 127.0.0.1 - - [03/Apr/2025 11:59:56] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 11:59:58,524 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 12:00:16,250 - INFO - Popup closed
+2025-04-03 12:00:16,250 - INFO - Fetching data for Fig(Anjura/Anjeer) in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 12:00:39,254 - INFO - 127.0.0.1 - - [03/Apr/2025 12:00:39] "[31m[1mPOST /predict_prices HTTP/1.1[0m" 400 -
+2025-04-03 12:00:39,259 - INFO - 127.0.0.1 - - [03/Apr/2025 12:00:39] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 12:00:41,114 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 12:00:46,788 - INFO - Popup closed
+2025-04-03 12:00:46,788 - INFO - Fetching data for Custard Apple (Sharifa) in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 12:01:14,360 - INFO - 127.0.0.1 - - [03/Apr/2025 12:01:14] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 12:03:46,839 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\sparse\\__init__.py', reloading
+2025-04-03 12:03:46,861 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\sparse\\_base.py', reloading
+2025-04-03 12:03:47,499 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 12:03:49,711 - WARNING -  * Debugger is active!
+2025-04-03 12:03:49,713 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 12:10:51,506 - INFO - 127.0.0.1 - - [03/Apr/2025 12:10:51] "OPTIONS /login HTTP/1.1" 200 -
+2025-04-03 12:10:52,329 - INFO - 127.0.0.1 - - [03/Apr/2025 12:10:52] "POST /login HTTP/1.1" 200 -
+2025-04-03 12:11:46,548 - INFO - 127.0.0.1 - - [03/Apr/2025 12:11:46] "OPTIONS /login HTTP/1.1" 200 -
+2025-04-03 12:11:47,421 - INFO - 127.0.0.1 - - [03/Apr/2025 12:11:47] "POST /login HTTP/1.1" 200 -
+2025-04-03 12:12:39,965 - INFO - 127.0.0.1 - - [03/Apr/2025 12:12:39] "OPTIONS /login HTTP/1.1" 200 -
+2025-04-03 12:12:40,860 - INFO - 127.0.0.1 - - [03/Apr/2025 12:12:40] "POST /login HTTP/1.1" 200 -
+2025-04-03 12:25:43,199 - INFO - 127.0.0.1 - - [03/Apr/2025 12:25:43] "OPTIONS /login HTTP/1.1" 200 -
+2025-04-03 12:25:43,989 - INFO - 127.0.0.1 - - [03/Apr/2025 12:25:43] "POST /login HTTP/1.1" 200 -
+2025-04-03 12:35:07,195 - INFO - 127.0.0.1 - - [03/Apr/2025 12:35:07] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-03 12:35:07,288 - INFO - 127.0.0.1 - - [03/Apr/2025 12:35:07] "POST /predict HTTP/1.1" 200 -
+2025-04-03 12:45:06,284 - INFO - 127.0.0.1 - - [03/Apr/2025 12:45:06] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-03 12:45:06,318 - INFO - 127.0.0.1 - - [03/Apr/2025 12:45:06] "POST /predict HTTP/1.1" 200 -
+2025-04-03 14:20:31,739 - INFO - 127.0.0.1 - - [03/Apr/2025 14:20:31] "OPTIONS /login HTTP/1.1" 200 -
+2025-04-03 14:20:32,274 - INFO - 127.0.0.1 - - [03/Apr/2025 14:20:32] "POST /login HTTP/1.1" 200 -
+2025-04-03 14:22:01,262 - INFO - 127.0.0.1 - - [03/Apr/2025 14:22:01] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-03 14:22:01,311 - INFO - 127.0.0.1 - - [03/Apr/2025 14:22:01] "POST /predict HTTP/1.1" 200 -
+2025-04-03 14:23:32,937 - INFO - 127.0.0.1 - - [03/Apr/2025 14:23:32] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 14:24:04,081 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 14:25:09,893 - INFO - Popup closed
+2025-04-03 14:25:09,893 - INFO - Fetching data for Papaya in Tamil Nadu, Kumbakonam
+2025-04-03 14:27:45,791 - ERROR - Attempt 1 failed: Message: timeout: Timed out receiving message from renderer: 120.000
+  (Session info: chrome=134.0.6998.178)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6FE404C25+3179557]
+	(No symbol) [0x00007FF6FE0688A0]
+	(No symbol) [0x00007FF6FDEF91CA]
+	(No symbol) [0x00007FF6FDEE664C]
+	(No symbol) [0x00007FF6FDEE633A]
+	(No symbol) [0x00007FF6FDEE3EC2]
+	(No symbol) [0x00007FF6FDEE498F]
+	(No symbol) [0x00007FF6FDEF350E]
+	(No symbol) [0x00007FF6FDF099B3]
+	(No symbol) [0x00007FF6FDF10AEA]
+	(No symbol) [0x00007FF6FDEE50FD]
+	(No symbol) [0x00007FF6FDF096E5]
+	(No symbol) [0x00007FF6FDFA01D5]
+	(No symbol) [0x00007FF6FDF77A03]
+	(No symbol) [0x00007FF6FDF406D0]
+	(No symbol) [0x00007FF6FDF41983]
+	GetHandleVerifier [0x00007FF6FE4667CD+3579853]
+	GetHandleVerifier [0x00007FF6FE47D1D2+3672530]
+	GetHandleVerifier [0x00007FF6FE472153+3627347]
+	GetHandleVerifier [0x00007FF6FE1D092A+868650]
+	(No symbol) [0x00007FF6FE072FFF]
+	(No symbol) [0x00007FF6FE06F4A4]
+	(No symbol) [0x00007FF6FE06F646]
+	(No symbol) [0x00007FF6FE05EAA9]
+	BaseThreadInitThunk [0x00007FF81282E8D7+23]
+	RtlUserThreadStart [0x00007FF8146D14FC+44]
+
+2025-04-03 14:27:54,703 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 14:28:36,002 - ERROR - Attempt 2 failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=134.0.6998.178)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6FE404C25+3179557]
+	(No symbol) [0x00007FF6FE0688A0]
+	(No symbol) [0x00007FF6FDEF91CA]
+	(No symbol) [0x00007FF6FDEE664C]
+	(No symbol) [0x00007FF6FDEE633A]
+	(No symbol) [0x00007FF6FDEE3EC2]
+	(No symbol) [0x00007FF6FDEE47AC]
+	(No symbol) [0x00007FF6FDEFD01A]
+	(No symbol) [0x00007FF6FDFA11AE]
+	(No symbol) [0x00007FF6FDF77C2A]
+	(No symbol) [0x00007FF6FDFA02F3]
+	(No symbol) [0x00007FF6FDF77A03]
+	(No symbol) [0x00007FF6FDF406D0]
+	(No symbol) [0x00007FF6FDF41983]
+	GetHandleVerifier [0x00007FF6FE4667CD+3579853]
+	GetHandleVerifier [0x00007FF6FE47D1D2+3672530]
+	GetHandleVerifier [0x00007FF6FE472153+3627347]
+	GetHandleVerifier [0x00007FF6FE1D092A+868650]
+	(No symbol) [0x00007FF6FE072FFF]
+	(No symbol) [0x00007FF6FE06F4A4]
+	(No symbol) [0x00007FF6FE06F646]
+	(No symbol) [0x00007FF6FE05EAA9]
+	BaseThreadInitThunk [0x00007FF81282E8D7+23]
+	RtlUserThreadStart [0x00007FF8146D14FC+44]
+
+2025-04-03 15:30:33,784 - INFO - Attempt 3/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 15:30:40,510 - INFO - Popup closed
+2025-04-03 15:30:40,510 - INFO - Fetching data for Papaya in Tamil Nadu, Kumbakonam
+2025-04-03 15:31:12,509 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\sarimax.py', reloading
+2025-04-03 15:31:14,355 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 15:31:16,563 - WARNING -  * Debugger is active!
+2025-04-03 15:31:16,566 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 18:07:27,038 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 18:07:27,039 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 18:07:27,088 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 18:07:29,282 - WARNING -  * Debugger is active!
+2025-04-03 18:07:29,302 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 18:08:49,108 - INFO - 127.0.0.1 - - [03/Apr/2025 18:08:49] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-03 18:08:49,226 - INFO - 127.0.0.1 - - [03/Apr/2025 18:08:49] "POST /predict HTTP/1.1" 200 -
+2025-04-03 18:09:04,670 - INFO - 127.0.0.1 - - [03/Apr/2025 18:09:04] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 18:09:08,694 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 18:09:13,074 - INFO - Popup closed
+2025-04-03 18:09:13,074 - INFO - Fetching data for Papaya in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 18:09:34,824 - INFO - 127.0.0.1 - - [03/Apr/2025 18:09:34] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 18:09:34,832 - INFO - 127.0.0.1 - - [03/Apr/2025 18:09:34] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 18:09:36,721 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 18:09:42,794 - INFO - Popup closed
+2025-04-03 18:09:42,794 - INFO - Fetching data for Pineapple in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 18:10:03,481 - INFO - 127.0.0.1 - - [03/Apr/2025 18:10:03] "[31m[1mPOST /predict_prices HTTP/1.1[0m" 400 -
+2025-04-03 18:10:03,491 - INFO - 127.0.0.1 - - [03/Apr/2025 18:10:03] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-03 18:10:05,365 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-03 18:10:08,609 - INFO - Popup closed
+2025-04-03 18:10:08,609 - INFO - Fetching data for Banana in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-03 18:10:31,595 - INFO - 127.0.0.1 - - [03/Apr/2025 18:10:31] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-03 18:11:55,374 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\arima\\model.py', reloading
+2025-04-03 18:11:55,426 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\__init__.py', reloading
+2025-04-03 18:11:55,459 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\sarimax.py', reloading
+2025-04-03 18:11:55,590 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\statespace\\mlemodel.py', reloading
+2025-04-03 18:11:55,712 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\tsa\\base\\tsa_model.py', reloading
+2025-04-03 18:11:55,762 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\statsmodels\\base\\model.py', reloading
+2025-04-03 18:11:56,608 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 18:12:00,335 - WARNING -  * Debugger is active!
+2025-04-03 18:12:00,342 - INFO -  * Debugger PIN: 129-038-908
+2025-04-03 18:12:00,458 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pickle.py', reloading
+2025-04-03 18:12:00,510 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\datetime.py', reloading
+2025-04-03 18:12:00,545 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_pydatetime.py', reloading
+2025-04-03 18:12:01,597 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-03 18:12:03,641 - WARNING -  * Debugger is active!
+2025-04-03 18:12:03,644 - INFO -  * Debugger PIN: 129-038-908
+2025-04-23 14:39:01,536 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-23 14:39:01,536 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-23 14:39:01,563 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-23 14:39:03,181 - WARNING -  * Debugger is active!
+2025-04-23 14:39:03,184 - INFO -  * Debugger PIN: 129-038-908
+2025-04-23 14:40:20,699 - INFO - 127.0.0.1 - - [23/Apr/2025 14:40:20] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-23 14:40:20,886 - INFO - 127.0.0.1 - - [23/Apr/2025 14:40:20] "POST /predict HTTP/1.1" 200 -
+2025-04-23 14:40:47,218 - INFO - 127.0.0.1 - - [23/Apr/2025 14:40:47] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-23 14:40:55,393 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-23 14:41:14,065 - INFO - No popup found or failed to close
+2025-04-23 14:41:14,065 - INFO - Fetching data for Banana in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-23 14:41:40,282 - INFO - 127.0.0.1 - - [23/Apr/2025 14:41:40] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-23 14:41:40,300 - INFO - 127.0.0.1 - - [23/Apr/2025 14:41:40] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-23 14:41:42,135 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-23 14:41:56,245 - INFO - No popup found or failed to close
+2025-04-23 14:41:56,246 - INFO - Fetching data for Pineapple in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-23 14:42:20,676 - INFO - 127.0.0.1 - - [23/Apr/2025 14:42:20] "[31m[1mPOST /predict_prices HTTP/1.1[0m" 400 -
+2025-04-23 14:42:21,017 - INFO - 127.0.0.1 - - [23/Apr/2025 14:42:21] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-23 14:42:22,753 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-23 14:42:36,367 - INFO - No popup found or failed to close
+2025-04-23 14:42:36,368 - INFO - Fetching data for Turmeric in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-23 14:43:04,069 - INFO - 127.0.0.1 - - [23/Apr/2025 14:43:04] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-23 14:43:04,092 - INFO - 127.0.0.1 - - [23/Apr/2025 14:43:04] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-23 14:43:05,854 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-23 14:43:31,049 - INFO - No popup found or failed to close
+2025-04-23 14:43:31,049 - INFO - Fetching data for Papaya in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-23 14:43:55,331 - INFO - 127.0.0.1 - - [23/Apr/2025 14:43:55] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-24 09:27:12,134 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 09:27:12,157 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-24 09:27:12,201 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-24 09:27:14,648 - WARNING -  * Debugger is active!
+2025-04-24 09:27:14,669 - INFO -  * Debugger PIN: 129-038-908
+2025-04-24 11:29:01,827 - INFO - 127.0.0.1 - - [24/Apr/2025 11:29:01] "OPTIONS /predict HTTP/1.1" 200 -
+2025-04-24 11:29:02,060 - INFO - 127.0.0.1 - - [24/Apr/2025 11:29:02] "POST /predict HTTP/1.1" 200 -
+2025-04-24 11:29:32,608 - INFO - 127.0.0.1 - - [24/Apr/2025 11:29:32] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-24 11:29:54,795 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-24 11:30:18,316 - INFO - No popup found or failed to close
+2025-04-24 11:30:18,316 - INFO - Fetching data for Banana in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-24 11:30:23,077 - ERROR - Attempt 1 failed: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=135.0.7049.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF771C6EFA5+77893]
+	GetHandleVerifier [0x00007FF771C6F000+77984]
+	(No symbol) [0x00007FF771A391BA]
+	(No symbol) [0x00007FF771A40AEC]
+	(No symbol) [0x00007FF771A43B5C]
+	(No symbol) [0x00007FF771A43C2F]
+	(No symbol) [0x00007FF771A9132D]
+	(No symbol) [0x00007FF771A844CC]
+	(No symbol) [0x00007FF771AB712A]
+	(No symbol) [0x00007FF771A819E6]
+	(No symbol) [0x00007FF771AB7340]
+	(No symbol) [0x00007FF771ADF07F]
+	(No symbol) [0x00007FF771AB6F03]
+	(No symbol) [0x00007FF771A80328]
+	(No symbol) [0x00007FF771A81093]
+	GetHandleVerifier [0x00007FF771F27B6D+2931725]
+	GetHandleVerifier [0x00007FF771F22132+2908626]
+	GetHandleVerifier [0x00007FF771F400F3+3031443]
+	GetHandleVerifier [0x00007FF771C891EA+184970]
+	GetHandleVerifier [0x00007FF771C9086F+215311]
+	GetHandleVerifier [0x00007FF771C76EC4+110436]
+	GetHandleVerifier [0x00007FF771C77072+110866]
+	GetHandleVerifier [0x00007FF771C5D479+5401]
+	BaseThreadInitThunk [0x00007FFB0BA6E8D7+23]
+	RtlUserThreadStart [0x00007FFB0C7914FC+44]
+
+2025-04-24 11:30:31,872 - INFO - Attempt 2/3: Loading URL: https://agmarknet.gov.in/
+2025-04-24 11:30:48,498 - INFO - No popup found or failed to close
+2025-04-24 11:30:48,498 - INFO - Fetching data for Banana in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-24 11:31:25,129 - INFO - 127.0.0.1 - - [24/Apr/2025 11:31:25] "POST /predict_prices HTTP/1.1" 200 -
+2025-04-24 11:31:25,443 - INFO - 127.0.0.1 - - [24/Apr/2025 11:31:25] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-24 11:31:27,254 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-24 11:31:48,888 - INFO - No popup found or failed to close
+2025-04-24 11:31:48,888 - INFO - Fetching data for Papaya in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-24 11:32:20,075 - INFO - 127.0.0.1 - - [24/Apr/2025 11:32:20] "[33mPOST /predict_prices HTTP/1.1[0m" 404 -
+2025-04-24 11:32:20,405 - INFO - 127.0.0.1 - - [24/Apr/2025 11:32:20] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-24 11:32:22,171 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-24 11:32:38,525 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-04-24 11:32:38,591 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+2025-04-24 11:32:38,801 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-04-24 11:32:38,874 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-04-24 11:32:39,089 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-04-24 11:32:39,127 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-04-24 11:32:39,163 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-04-24 11:32:39,204 - INFO -  * Detected change in 'C:\\Users\\aarth\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-04-24 11:32:40,186 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-24 11:33:02,669 - WARNING -  * Debugger is active!
+2025-04-24 11:33:02,675 - INFO -  * Debugger PIN: 129-038-908
+2025-04-24 11:33:02,760 - INFO - 127.0.0.1 - - [24/Apr/2025 11:33:02] "OPTIONS /predict_prices HTTP/1.1" 200 -
+2025-04-24 11:33:04,664 - INFO - Attempt 1/3: Loading URL: https://agmarknet.gov.in/
+2025-04-24 11:33:17,830 - INFO - No popup found or failed to close
+2025-04-24 11:33:17,831 - INFO - Fetching data for Pineapple in Tamil Nadu, Ammapet(Uzhavar Sandhai )
+2025-04-24 11:33:37,575 - INFO - 127.0.0.1 - - [24/Apr/2025 11:33:37] "[31m[1mPOST /predict_prices HTTP/1.1[0m" 400 -
+2025-04-28 09:48:17,708 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-28 09:48:17,709 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 09:48:17,761 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-28 09:48:19,819 - WARNING -  * Debugger is active!
+2025-04-28 09:48:19,831 - INFO -  * Debugger PIN: 129-038-908

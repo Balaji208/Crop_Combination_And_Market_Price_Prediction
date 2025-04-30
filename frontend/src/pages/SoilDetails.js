@@ -11,7 +11,6 @@ import { Sprout } from "lucide-react";
 const SoilDetails = () => {
   const navigate = useNavigate();
 
-  const [pincode, setPincode] = React.useState("");
   const [soilData, setSoilData] = React.useState({
     nitrogen: "",
     potassium: "",
@@ -26,9 +25,13 @@ const SoilDetails = () => {
     cumulativeRainfall,
     fetchWeather,
     setFetchWeather,
+    autoFetch,
+    setAutoFetch,
+    pincode,
+    setPincode,
     error: weatherError,
     setError: setWeatherError,
-  } = useWeatherData(pincode);
+  } = useWeatherData();
 
   const handlePredict = async () => {
     const { nitrogen, phosphorus, potassium, ph } = soilData;
@@ -38,13 +41,13 @@ const SoilDetails = () => {
       return;
     }
 
-    if (!pincode) {
-      setError("Please enter a pincode to fetch weather data.");
+    if (!fetchWeather) {
+      setError("Please enable weather fetching to proceed.");
       return;
     }
 
     if (!weatherData) {
-      setError("Weather data not available. Please check your pincode and try again.");
+      setError("Weather data not available. Please check your settings and try again.");
       return;
     }
 
@@ -55,7 +58,7 @@ const SoilDetails = () => {
       temperature: weatherData.current.temp || 0,
       humidity: weatherData.current.humidity || 0,
       ph: Number(ph),
-      rainfall: cumulativeRainfall || 0, // Use 8-day cumulative rainfall
+      rainfall: cumulativeRainfall || 0,
     };
 
     setLoading(true);
@@ -83,7 +86,7 @@ const SoilDetails = () => {
           <div className="bg-gradient-to-r from-green-600 to-green-700 py-6 px-8">
             <h2 className="text-2xl font-bold text-white mb-2">Land Details & Weather</h2>
             <p className="text-green-100">
-              Enter your soil composition and pincode to get optimal crop recommendations
+              Enter your soil composition and configure weather data for crop recommendations
             </p>
           </div>
 
@@ -127,7 +130,12 @@ const SoilDetails = () => {
                 </svg>
                 Weather Information
               </h3>
-              <WeatherSelector fetchWeather={fetchWeather} setFetchWeather={setFetchWeather} />
+              <WeatherSelector
+                fetchWeather={fetchWeather}
+                setFetchWeather={setFetchWeather}
+                autoFetch={autoFetch}
+                setAutoFetch={setAutoFetch}
+              />
               <div className="mt-4">
                 <WeatherDisplay
                   fetchWeather={fetchWeather}
@@ -135,6 +143,7 @@ const SoilDetails = () => {
                   cumulativeRainfall={cumulativeRainfall}
                   pincode={pincode}
                   setPincode={setPincode}
+                  autoFetch={autoFetch}
                 />
               </div>
             </div>
@@ -261,7 +270,7 @@ const SoilDetails = () => {
               <h3 className="font-semibold text-blue-700">Weather Tip</h3>
             </div>
             <p className="text-sm text-gray-600">
-              Enter a valid pincode to fetch real-time weather data for your location.
+              Enable auto-fetch to use your current location or enter a pincode manually.
             </p>
           </div>
 

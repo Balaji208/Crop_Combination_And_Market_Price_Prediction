@@ -6,7 +6,7 @@ import Auth from './components/Auth';
 import ResultPage from './pages/ResultPage';
 import HomeDashboard from './pages/HomeDashboard';
 import PricePrediction from './pages/PricePrediction';
-
+import History  from './pages/History';
 const ProtectedRoute = ({ children }) => {
   const isAuthenticated = !!localStorage.getItem('username');
   return isAuthenticated ? children : <Navigate to="/login" />;
@@ -23,6 +23,7 @@ function App() {
         <Route path="/soil-details" element={<ProtectedRoute><SoilDetails /></ProtectedRoute>} />
         <Route path="/result" element={<ProtectedRoute><ResultPage /></ProtectedRoute>} />
         <Route path="/price-prediction" element= {<ProtectedRoute><PricePrediction/></ProtectedRoute>}/>
+        <Route path="/history" element= {<ProtectedRoute><History/></ProtectedRoute>}/> 
       </Routes>
     </Router>
   );

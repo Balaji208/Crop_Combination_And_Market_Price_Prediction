@@ -1,32 +1,33 @@
-import React from "react";
-
-const WeatherDisplay = ({ fetchWeather, weatherData, cumulativeRainfall, pincode, setPincode, loading }) => {
-  return (
-    <div className="space-y-4 mt-4">
-      <div className="form-group">
-        <label className="block text-sm font-medium text-gray-700">Pincode</label>
+const WeatherDisplay = ({
+  fetchWeather,
+  weatherData,
+  cumulativeRainfall,
+  pincode,
+  setPincode,
+  autoFetch,
+}) => (
+  <div>
+    {!autoFetch && (
+      <div className="mb-4">
+        <label className="block text-sm font-medium text-gray-700 mb-1">Pincode</label>
         <input
           type="text"
           value={pincode}
           onChange={(e) => setPincode(e.target.value)}
-          placeholder="Enter Pincode (e.g., 793108)"
-          className="w-full mt-1 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-green-500"
+          placeholder="Enter 6-digit pincode"
+          className="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+          disabled={!fetchWeather}
         />
       </div>
-      {loading ? (
-        <p className="text-gray-500">Loading weather data...</p>
-      ) : weatherData ? (
-        <div className="text-gray-700">
-          <h2 className="text-lg font-semibold">Weather Information:</h2>
-          <p>Temperature: {weatherData.current.temp} °C (Current)</p>
-          <p>Humidity: {weatherData.current.humidity}% (Current)</p>
-          <p>Rainfall: {cumulativeRainfall.toFixed(2)} mm (Next 7 Days)</p>
-        </div>
-      ) : pincode ? (
-        <p className="text-red-500">Failed to load weather data. Check pincode or try again.</p>
-      ) : null}
-    </div>
-  );
-};
+    )}
+    {fetchWeather && weatherData && (
+      <div className="text-gray-700">
+        <p>Current Temperature: {weatherData.current.temp} °C</p>
+        <p>Current Humidity: {weatherData.current.humidity} %</p>
+        <p>7-Day Cumulative Rainfall: {cumulativeRainfall.toFixed(2)} mm</p>
+      </div>
+    )}
+  </div>
+);
 
 export default WeatherDisplay;

@@ -1,16 +1,25 @@
-import React from "react";
-
-const WeatherSelector = ({ fetchWeather, setFetchWeather }) => (
-  <div className="form-group mt-4">
-    <label className="block text-sm font-medium text-gray-700">Weather Data Source</label>
-    <select
-      value={fetchWeather}
-      onChange={(e) => setFetchWeather(e.target.value === "true")}
-      className="w-full mt-1 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-green-500"
-    >
-      <option value="true">Fetch Automatically</option>
-      <option value="false">Fetch on Pincode Input</option>
-    </select>
+const WeatherSelector = ({ fetchWeather, setFetchWeather, autoFetch, setAutoFetch }) => (
+  <div className="flex items-center space-x-4">
+    <label className="flex items-center space-x-2">
+      <input
+        type="checkbox"
+        checked={fetchWeather}
+        onChange={(e) => setFetchWeather(e.target.checked)}
+        className="h-5 w-5 text-green-600 rounded focus:ring-green-500"
+      />
+      <span className="text-gray-700">Fetch Weather Data</span>
+    </label>
+    {fetchWeather && (
+      <label className="flex items-center space-x-2">
+        <input
+          type="checkbox"
+          checked={autoFetch}
+          onChange={(e) => setAutoFetch(e.target.checked)}
+          className="h-5 w-5 text-blue-600 rounded focus:ring-blue-500"
+        />
+        <span className="text-gray-700">Use My Location</span>
+      </label>
+    )}
   </div>
 );
 
